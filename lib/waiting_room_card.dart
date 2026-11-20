@@ -1,4 +1,5 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
+import 'package:waiting_room_app/waiting_room_timestamp.dart';
 
 class WaitingRoomCard extends StatelessWidget {
   final String name;
@@ -25,6 +26,8 @@ class WaitingRoomCard extends StatelessWidget {
                 fontWeight: FontWeight.bold,
               ),
             ),
+            const SizedBox(height: 10),
+            const WaitingRoomTimestamp(),
           ],
         ),
       ),

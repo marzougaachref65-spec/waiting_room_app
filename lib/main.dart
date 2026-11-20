@@ -1,4 +1,4 @@
-import 'package:flutter/material.dart';
+import 'package:material_ui/material_ui.dart';
 import 'package:waiting_room_app/waiting_room_card.dart';
 
 void main() {
